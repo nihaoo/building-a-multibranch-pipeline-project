@@ -1,6 +1,6 @@
 pipeline {
-    //agent {label  'amazon-linux'}
-	agent any
+    agent {label  'amazon-linux'}
+	//agent any
     environment {
         CI = 'true'
     }
